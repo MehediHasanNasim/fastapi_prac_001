@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.eggs/
+pip-wheel-metadata/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+debug.log
+
+# Environment variables (security)
+.env
+*.env
+.env.local
+.env.*.backup
+
+# Dependency management
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# CI/CD
+coverage.xml
+.coverage
+htmlcov/
